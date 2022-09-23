@@ -5,5 +5,5 @@
 `./output_check.sh <filename>`
 
 ## Overview
-- Create `ans` directory and answer example in the directory
-- execute this script in `ans/../`
+- Create `ans` directory and `ans/<filename>` in `pp1` `pp2` ... directory
+- Execute this script in `ans/../`
