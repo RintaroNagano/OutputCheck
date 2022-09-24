@@ -1,17 +1,17 @@
 #!/bin/bash
 
-ANS_DIR="ans/"
+ANS_DIR="~/ans/"
 
 #引数の個数確認
 if [ $# != 1 ]; then
-    echo Error: Too many argument, [$*]
+    echo Error: You should give 1 argument, you gave [$*]
     exit 1
 fi
 
 #正答例の存在確認
 if [ ! -e $ANS_DIR$1 ]; then
     echo "Error: File not exists."
-    echo "You have to create example answer file as [ans/<filename>]"
+    echo "You have to create answer file as [ans/<filename>]"
     exit 1
 fi
 

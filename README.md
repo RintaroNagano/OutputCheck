@@ -1,9 +1,9 @@
 # OutputCheck
-> Shell script to check the difference binary file output and answer for Basic Programming Class.
+> Check the difference your file output and answer for Basic Programming Class.
 
 ## Usage 
-`./output_check.sh <filename>`
+`./output_check <filename>`
 
 ## Overview
-- Create `ans` directory and answer as `ans/<filename>` in `pp1` `pp2` ... directory
+- Create `~/ans` directory and answer as `~/ans/<filename>`
 - Execute this script in `pp1` `pp2` ....
