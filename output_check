@@ -11,7 +11,7 @@ fi
 #正答例の存在確認
 if [ ! -e $ANS_DIR$1 ]; then
     echo "Error: File not exists."
-    echo "You have to create answer file as [ans/<filename>]"
+    echo "You have to create answer file as [${ANS_DIR}<filename>]"
     exit 1
 fi
 
