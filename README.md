@@ -1,5 +1,5 @@
 # OutputCheck
-> Check the difference your file output and answer for Basic Programming Class.
+> Check the difference between your file output and answer for Basic Programming Class.
 
 ## Usage 
 `./output_check <filename>`
